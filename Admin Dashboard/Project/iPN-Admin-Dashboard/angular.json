@@ -21,7 +21,19 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/fonts/fa-solid-900.eot",
+              "src/assets/fonts/fa-solid-900.svg",
+              "src/assets/fonts/fa-solid-900.ttf",
+              "src/assets/fonts/fa-solid-900.woff",
+              "src/assets/fonts/fa-solid-900.woff2",
+              "src/assets/fonts/Pe-icon-7-stroke.eot",
+              "src/assets/fonts/Pe-icon-7-stroke.svg",
+              "src/assets/fonts/Pe-icon-7-stroke.ttf",
+              "src/assets/fonts/Pe-icon-7-stroke.woff"
+
+
+
             ],
             "styles": [
               "src/styles.css",

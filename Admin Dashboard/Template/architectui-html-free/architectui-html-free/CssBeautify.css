@@ -23,8 +23,16 @@
 }
 
 .border-light {
- 
-  border-color: #3f6ad8;
+  border-c/*!
+ =========================================================
+ * ArchitectUI HTML Theme Dashboard - v1.0.0
+ =========================================================
+ * Product Page: https://dashboardpack.com
+ * Copyright 2019 DashboardPack (https://dashboardpack.com)
+ * Licensed under MIT (https://github.com/DashboardPack/architectui-html-theme-free/blob/master/LICENSE)
+ =========================================================
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */.border-primary{border-color: #3f6ad8;
 }
 
 .border-secondary {
@@ -9999,7 +10007,7 @@ a,button,.btn {
 .app-header__logo .logo-src {
   height: 23px;
   width: 97px;
-  background: url(../assets/images/logo-inverse.png);
+  background: url(assets/images/logo-inverse.png);
 }
 
 .app-header__menu,.app-header__mobile-menu {
@@ -10107,7 +10115,7 @@ a,button,.btn {
 }
 
 .app-header.header-text-light .app-header__logo .logo-src {
-  background: url(../assets/images/logo.png);
+  background: url(assets/images/logo.png);
 }
 
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,.app-header.header-text-light .app-header__mobile-menu .hamburger-inner::before,.app-header.header-text-light .app-header__mobile-menu .hamburger-inner::after {
@@ -10190,7 +10198,7 @@ a,button,.btn {
 }
 
 .app-header.header-text-dark .app-header__logo .logo-src {
-  background: url(../assets/images/logo-inverse.png);
+  background: url(assets/images/logo-inverse.png);
 }
 
 .app-sidebar {
@@ -10468,7 +10476,7 @@ a,button,.btn {
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .logo-src {
-  background: url(../assets/images/logo.png);
+  background: url(assets/images/logo.png);
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner,.app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner::before,.app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner::after {
@@ -11255,7 +11263,7 @@ a,button,.btn {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-emphasis-color: transparent;
+  text-fill-color: transparent;
 }
 
 .font-size-xlg {
@@ -11529,9 +11537,7 @@ Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */body {
-  backface-visibility:hidden;
   -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
 }
 
 .animated {
@@ -15623,7 +15629,7 @@ legend {
  * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */@font-face {
-  font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;src:url(../assets/fonts/fa-solid-900.eot);src:url(../assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/fa-solid-900.woff2) format("woff2"),url(../assets/fonts/fa-solid-900.woff) format("woff"),url(../assets/fonts/fa-solid-900.ttf) format("truetype"),url(../assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
+  font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;src:url(assets/fonts/fa-solid-900.eot);src:url(assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(assets/fonts/fa-solid-900.woff2) format("woff2"),url(assets/fonts/fa-solid-900.woff) format("woff"),url(assets/fonts/fa-solid-900.ttf) format("truetype"),url(assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
 }
 
 .fa,.fas {
@@ -15759,37 +15765,31 @@ legend {
 }
 
 .fa-rotate-90 {
-  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
-  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
-  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
-  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
-   filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(1, -1);
 }
 
 .fa-flip-horizontal.fa-flip-vertical {
-  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
@@ -21171,13 +21171,13 @@ legend {
 }
 
 @font-face {
-  font-family:'Pe-icon-7-stroke';src:url(../assets/fonts/Pe-icon-7-stroke.eot);src:url(../assets/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v) format("embedded-opentype"),url(../assets/fonts/Pe-icon-7-stroke.woff) format("woff"),url(../assets/fonts/Pe-icon-7-stroke.ttf) format("truetype"),url(../assets/fonts/Pe-icon-7-stroke.svg#Pe-icon-7-stroke) format("svg");font-weight:normal;font-style:normal;
+  font-family:'Pe-icon-7-stroke';src:url(assets/fonts/Pe-icon-7-stroke.eot);src:url(assets/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v) format("embedded-opentype"),url(assets/fonts/Pe-icon-7-stroke.woff) format("woff"),url(assets/fonts/Pe-icon-7-stroke.ttf) format("truetype"),url(assets/fonts/Pe-icon-7-stroke.svg#Pe-icon-7-stroke) format("svg");font-weight:normal;font-style:normal;
 }
 
 [class^="pe-7s-"],[class*=" pe-7s-"] {
   display: inline-block;
   font-family: 'Pe-icon-7-stroke';
-  speak-as: none;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -21185,9 +21185,10 @@ legend {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.pe-lg {
+}/*! Modified from font-awesome helper CSS classes - PIXEDEN
+ *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (CSS: MIT License)
+ */.pe-lg {
   font-size: 1.1704rem;
   line-height: 0.75em;
   vertical-align: -15%;
@@ -24281,7 +24282,8 @@ a.fc-more:hover {
   background-size: 100%;
 }
 
-
+olor:#eee;
+}
 
 .border-dark {
 border-color: #343a40;
@@ -34230,7 +34232,7 @@ a,button,.btn {
 .app-header__logo .logo-src {
   height: 23px;
   width: 97px;
-  background: url(../assets/images/logo-inverse.png);
+  background: url(assets/images/logo-inverse.png);
 }
 
 .app-header__menu,.app-header__mobile-menu {
@@ -34338,7 +34340,7 @@ a,button,.btn {
 }
 
 .app-header.header-text-light .app-header__logo .logo-src {
-  background: url(../assets/images/logo.png);
+  background: url(assets/images/logo.png);
 }
 
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,.app-header.header-text-light .app-header__mobile-menu .hamburger-inner::before,.app-header.header-text-light .app-header__mobile-menu .hamburger-inner::after {
@@ -34421,7 +34423,7 @@ a,button,.btn {
 }
 
 .app-header.header-text-dark .app-header__logo .logo-src {
-  background: url(../assets/images/logo-inverse.png);
+  background: url(assets/images/logo-inverse.png);
 }
 
 .app-sidebar {
@@ -34699,7 +34701,7 @@ a,button,.btn {
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .logo-src {
-  background: url(../assets/images/logo.png);
+  background: url(assets/images/logo.png);
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner,.app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner::before,.app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner::after {
@@ -39848,7 +39850,7 @@ legend {
 }
 
 @font-face {
-  font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;src:url(../assets/fonts/fa-solid-900.eot);src:url(../assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/fa-solid-900.woff2) format("woff2"),url(../assets/fonts/fa-solid-900.woff) format("woff"),url(../assets/fonts/fa-solid-900.ttf) format("truetype"),url(../assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
+  font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;src:url(assets/fonts/fa-solid-900.eot);src:url(assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(assets/fonts/fa-solid-900.woff2) format("woff2"),url(assets/fonts/fa-solid-900.woff) format("woff"),url(assets/fonts/fa-solid-900.ttf) format("truetype"),url(assets/fonts/fa-solid-900.svg#fontawesome) format("svg");
 }
 
 .fa,.fas {
@@ -45384,7 +45386,7 @@ legend {
 }
 
 @font-face {
-  font-family:'Pe-icon-7-stroke';src:url(../assets/fonts/Pe-icon-7-stroke.eot);src:url(../assets/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v) format("embedded-opentype"),url(../assets/fonts/Pe-icon-7-stroke.woff) format("woff"),url(../assets/fonts/Pe-icon-7-stroke.ttf) format("truetype"),url(../assets/fonts/Pe-icon-7-stroke.svg)format("svg");font-weight:normal;font-style:normal;
+  font-family:'Pe-icon-7-stroke';src:url(assets/fonts/Pe-icon-7-stroke.eot);src:url(../assets/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v) format("embedded-opentype"),url(../ssets/fonts/Pe-icon-7-stroke.woff) format("woff"),url(../assets/fonts/Pe-icon-7-stroke.ttf) format("truetype"),url(assets/fonts/Pe-icon-7-stroke.svg#Pe-icon-7-stroke) format("svg");font-weight:normal;font-style:normal;
 }
 
 [class^="pe-7s-"],[class*=" pe-7s-"] {
